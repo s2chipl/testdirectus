@@ -1,0 +1,14 @@
+npm init -y
+npm install directus
+
+tạo env
+
+KEY=directus-key
+SECRET=directus-secret
+DB_CLIENT=sqlite3
+DB_FILENAME=./data.db
+ADMIN_EMAIL=admin@example.com
+ADMIN_PASSWORD=admin123
+
+npx directus bootstrap
+npx directus start
